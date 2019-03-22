@@ -253,7 +253,6 @@ var bc = new
    .addField('الرسالة', args)
    .setThumbnail(message.author.avatarURL)
    .setFooter(copy, client.user.avatarURL);
-      .addField('MadeBy', TheJokar)
 
 m.send({ embed: bc })
 msg.delete();
